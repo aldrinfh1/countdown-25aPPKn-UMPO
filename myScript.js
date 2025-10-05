@@ -9,7 +9,7 @@
         },
         {
             title: "Agama Islam : Me-resume kajian",
-            description: "Tenggat hari ini pukul 17.00 WIB.",
+            description: "5 Oktober 2025, pukul 17.00 WIB.",
             deadline: "Oct 5, 2025 17:00:00"
         },
         {
