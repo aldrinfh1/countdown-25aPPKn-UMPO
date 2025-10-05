@@ -1,0 +1,82 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #1e3a5f;
+        }
+        .task-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .task-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #3498db;
+            transition: transform 0.2s;
+        }
+        .task-card:hover {
+            transform: translateY(-5px);
+        }
+        .task-card.overdue {
+            border-left-color: #e74c3c;
+            background-color: #fbecec;
+        }
+        .task-card.soon {
+            border-left-color: #f1c40f;
+        }
+        h2 {
+            margin-top: 0;
+            font-size: 1.2em;
+            color: #2c3e50;
+        }
+        p {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        .countdown {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .time-box {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            width: 70px;
+        }
+        .time-box .number {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #1e3a5f;
+        }
+        .time-box .label {
+            font-size: 0.7em;
+            color: #7f8c8d;
+            text-transform: uppercase;
+        }
+        .message {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .message.overdue-msg {
+            color: #c0392b;
+        }
+        .message.completed-msg {
+            color: #27ae60;
+        }
