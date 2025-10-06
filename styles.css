@@ -57,10 +57,19 @@ body {
             border-left-color: #e74c3c;
             background-color: #fbecec;
         }
+        .task-card.overdue:hover {
+            border-style: solid;
+            border-color: #e74c3c;
+
+        }
         .task-card.soon {
             border-left-color: #f1c40f;
             background-color: #fff0b5;
 
+        }
+        .task-card.soon:hover {
+            border-style: solid;
+            border-color: #f1c40f;
         }
         .soon .time-box {
             background-color: #fae078;
