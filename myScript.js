@@ -53,7 +53,7 @@
             deadline: "Dec 18, 2025 06:49:59"       },
         {
             title: "Teori Pembelajaran :<br> Merangkum & Poster",
-            description: "Deadline bertahap: 16, 23, & 30 Oktober. Countdown menuju deadline pertama. ",
+            description: "Deadline bertahap: 16, 23, & 30 Oktober. Countdown menuju deadline pertama. <p style=text-align:;><b> 16 Oktober 2025 </p>",
             deadline: "Oct 16, 2025 12:19:59" // Countdown diatur ke tanggal terdekat
         }
     ];
