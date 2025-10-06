@@ -4,54 +4,53 @@
                const tasks = [
         {
             title: "Pendidikan Karakter:<br> Membuat Poster",
-            description: "19 Oktober 2025",
+            description: "<p style=text-align:;><b>19 Oktober 2025</p>",
             deadline: "Oct 19, 2025 08:29:59" // Countdown diatur ke tanggal terdekat
         },
         {
             title: "Presentasi Pengantar Pendidikan",
-            description: "27 Oktober 2025",
+            description: "<p style=text-align:;><b>27 Oktober 2025</p>",
             deadline: "Oct 27, 2025 07:29:59"
         },
         {
             title: "Agama Islam :<br> Me-resume kajian",
-            description: "5 Oktober 2025, pukul 17.00 WIB.",
+            description: "<p style=text-align:;><b>5 Oktober 2025, pukul 17.00 WIB.</p>",
             deadline: "Oct 5, 2025 17:00:00"
         },
         {
             title: "B.Indonesia :<br> Mencari 25 kosakata",
-            description: "Mencari kosakata yg berhubungan dengan PPKn dan definisikan. <br> 7 Oktober 2025",
+            description: "Mencari kosakata yg berhubungan dengan PPKn dan definisikan. <p style=text-align:;><b> 7 Oktober 2025 </p>",
             deadline: "Oct 7, 2025 08:59:59"
         },
         {
             title: "Ilmu Negara :<br> Book Chapter / Artikel",
-            description: "Membuat book chapter atau Artikel+jurnal, Makalah+Video.<br> 8 Oktober 2025",
+            description: "Membuat book chapter atau Artikel+jurnal, Makalah+Video.<p style=text-align:;><b> 8 Oktober 2025 </p>",
             deadline: "Oct 8, 2025 08:59:59"
         },
         {
             title: "Pendidikan Ilmu Sosial :<br> Latar Belakang & Rumusan",
-            description: "Membuat latar belakang dan rumusan dari judul yang sudah ditentukan.<br> 19 November 2025",
+            description: "Membuat latar belakang dan rumusan dari judul yang sudah ditentukan.<p style=text-align:;><b> 19 November 2025 </p>",
             deadline: "Nov 19, 2025 12:30:59"
         },
         {
             title: "Ilmu Politik :<br> Membuat Poster",
-            description: "Tugas pertama dari mata kuliah Ilmu Politik.<br> 29 Oktober 2025",
+            description: "Tugas pertama dari mata kuliah Ilmu Politik.<p style=text-align:;><b> 29 Oktober 2025 </p>",
             deadline: "Oct 29, 2025 09:19:59"
         },
         {
             title: "Ilmu Politik :<br> Review 10 Artikel Ilmiah",
-            description: "5 artikel Indonesia & 5 artikel internasional.<br> 14 Januari 2025",
+            description: "5 artikel Indonesia & 5 artikel internasional.<p style=text-align:;><b> 14 Januari 2025 </p>",
             deadline: "Jan 14, 2026 09:19:59" 
         },
         {
             title: "Pancasila :<br> Studi Kasus",
-            description: "Menghasilkan laporan 7-10 halaman dan produk kreatif.<br> 6 November 2025",
+            description: "Menghasilkan laporan 7-10 halaman dan produk kreatif.<p style=text-align:;><b> 6 November 2025 </p>",
             deadline: "Nov 6, 2025 06:49:59"
         },
         {
             title: "Pancasila :<br> Riset Sederhana",
-            description: "Menghasilkan laporan singkat 5 halaman dan produk kreatif.<br> 18 Desember 2025",
-            deadline: "Dec 18, 2025 06:49:59"
-        },
+            description: "Menghasilkan laporan singkat 5 halaman dan produk kreatif. <p style=text-align:;><b> 18 Desember 2025 </p>",
+            deadline: "Dec 18, 2025 06:49:59"       },
         {
             title: "Teori Pembelajaran :<br> Merangkum & Poster",
             description: "Deadline bertahap: 16, 23, & 30 Oktober. Countdown menuju deadline pertama. ",
@@ -74,19 +73,19 @@
             ${descriptionHTML}
             <div class="countdown-wrapper">
                 <div class="countdown" id="countdown-${index}">
-                    <div class="time-box">
+                    <div class="time-box" id="hari">
                         <div class="number" data-unit="days">0</div>
                         <div class="label">Hari</div>
                     </div>
-                    <div class="time-box">
+                    <div class="time-box" id="jam">
                         <div class="number" data-unit="hours">0</div>
                         <div class="label">Jam</div>
                     </div>
-                    <div class="time-box">
+                    <div class="time-box" id="menit">
                         <div class="number" data-unit="minutes">0</div>
                         <div class="label">Menit</div>
                     </div>
-                    <div class="time-box">
+                    <div class="time-box" id="detik">
                         <div class="number" data-unit="seconds">0</div>
                         <div class="label">Detik</div>
                     </div>

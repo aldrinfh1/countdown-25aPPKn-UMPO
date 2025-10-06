@@ -12,6 +12,28 @@ body {
         h1 {
             color: #1e3a5f;
         }
+
+        .btn1 {
+            background-color: #3498db;
+            border: none;
+            color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 15px 32px;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition: transform 0.2s;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+
+        .btn1:hover {
+            transform: translateY(-5px);
+            background-color: darkblue;
+        }
+
         .task-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -36,15 +58,33 @@ body {
         }
         .task-card.soon {
             border-left-color: #f1c40f;
+            background-color: #fff0b5;
+
+        }
+        .soon .time-box {
+            background-color: #fae078;
+            border-style: none;
+            border-color: #f1c40f;
+        }
+        .soon .time-box .number {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #e74c3c;
         }
         h2 {
-            margin-top: 0;
+            margin: 0;
             font-size: 1.2em;
             color: #2c3e50;
         }
+        .soon h2 {
+            color: #423500;
+        }
         p {
-            color: #7f8c8d;
+            color: #707c7d;
             font-size: 0.9em;
+        }
+        .soon p {
+            color: #423500;
         }
         .countdown {
             display: flex;
@@ -55,18 +95,23 @@ body {
         .time-box {
             background-color: #ecf0f1;
             padding: 10px;
-            border-radius: 5px;
+            border-radius: 0px;
             width: 70px;
         }
+
         .time-box .number {
             font-size: 1.8em;
             font-weight: bold;
             color: #1e3a5f;
         }
+    
         .time-box .label {
             font-size: 0.7em;
             color: #7f8c8d;
             text-transform: uppercase;
+        }
+        .soon .time-box .label {
+            color: #423500;
         }
         .message {
             font-size: 1.5em;
