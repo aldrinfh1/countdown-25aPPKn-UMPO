@@ -3,6 +3,11 @@
     // Format Tanggal: "Bulan Hari, Tahun Jam:Menit:Detik" (Bulan dalam Bahasa Inggris)
                const tasks = [
         {
+            title: "Pendidikan Karakter:<br> Membuat Poster",
+            description: "19 Oktober 2025",
+            deadline: "Oct 19, 2025 23:59:59" // Countdown diatur ke tanggal terdekat
+        },
+        {
             title: "Presentasi Pengantar Pendidikan",
             description: "27 Oktober 2025",
             deadline: "Oct 27, 2025 23:59:59"
@@ -104,7 +109,7 @@
 
             if (distance < 0) {
                 // Jika waktu sudah habis
-                countdownWrapper.innerHTML = `<div class="message overdue-msg">Tenggat Waktu Terlewat</div>`;
+                countdownWrapper.innerHTML = `<div class="message overdue-msg">Tugas Selasai!</div>`;
                 card.classList.add('overdue');
             } else {
                 // Jika masih ada waktu
