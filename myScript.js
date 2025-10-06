@@ -8,47 +8,47 @@
             deadline: "Oct 27, 2025 23:59:59"
         },
         {
-            title: "Agama Islam : Me-resume kajian",
+            title: "Agama Islam :<br> Me-resume kajian",
             description: "5 Oktober 2025, pukul 17.00 WIB.",
             deadline: "Oct 5, 2025 17:00:00"
         },
         {
-            title: "B.Indonesia : Mencari 25 kosakata",
+            title: "B.Indonesia :<br> Mencari 25 kosakata",
             description: "Mencari kosakata yg berhubungan dengan PPKn dan definisikan. <br> 7 Oktober 2025",
             deadline: "Oct 7, 2025 23:59:59"
         },
         {
-            title: "Ilmu Negara : Book Chapter / Artikel",
-            description: "Membuat book chapter atau Artikel+jurnal, Makalah+Video. 8 Oktober 2025",
+            title: "Ilmu Negara :<br> Book Chapter / Artikel",
+            description: "Membuat book chapter atau Artikel+jurnal, Makalah+Video.<br> 8 Oktober 2025",
             deadline: "Oct 8, 2025 23:59:59"
         },
         {
-            title: "PIS : Latar Belakang & Rumusan",
-            description: "Membuat latar belakang dan rumusan dari judul yang sudah ditentukan. 19 November 2025",
+            title: "Pendidikan Ilmu Sosial :<br> Latar Belakang & Rumusan",
+            description: "Membuat latar belakang dan rumusan dari judul yang sudah ditentukan.<br> 19 November 2025",
             deadline: "Nov 19, 2025 23:59:59"
         },
         {
-            title: "Ilmu Politik : Membuat Poster",
-            description: "Tugas pertama dari mata kuliah Ilmu Politik. 29 Oktober 2025",
+            title: "Ilmu Politik :<br> Membuat Poster",
+            description: "Tugas pertama dari mata kuliah Ilmu Politik.<br> 29 Oktober 2025",
             deadline: "Oct 29, 2025 23:59:59"
         },
         {
-            title: "Ilmu Politik : Review 10 Artikel Ilmiah",
-            description: "5 artikel Indonesia & 5 artikel internasional. 14 Januari 2025",
+            title: "Ilmu Politik :<br> Review 10 Artikel Ilmiah",
+            description: "5 artikel Indonesia & 5 artikel internasional.<br> 14 Januari 2025",
             deadline: "Jan 14, 2026 23:59:59" 
         },
         {
-            title: "Pancasila : Studi Kasus",
-            description: "Menghasilkan laporan 7-10 halaman dan produk kreatif. 6 November 2025",
+            title: "Pancasila :<br> Studi Kasus",
+            description: "Menghasilkan laporan 7-10 halaman dan produk kreatif.<br> 6 November 2025",
             deadline: "Nov 6, 2025 23:59:59"
         },
         {
-            title: "Pancasila : Riset Sederhana",
-            description: "Menghasilkan laporan singkat 5 halaman dan produk kreatif. 18 Desember 2025",
+            title: "Pancasila :<br> Riset Sederhana",
+            description: "Menghasilkan laporan singkat 5 halaman dan produk kreatif.<br> 18 Desember 2025",
             deadline: "Dec 18, 2025 23:59:59"
         },
         {
-            title: "Teori Pembelajaran : Merangkum & Poster",
+            title: "Teori Pembelajaran :<br> Merangkum & Poster",
             description: "Deadline bertahap: 16, 23, & 30 Oktober. Countdown menuju deadline pertama. ",
             deadline: "Oct 16, 2025 23:59:59" // Countdown diatur ke tanggal terdekat
         }
