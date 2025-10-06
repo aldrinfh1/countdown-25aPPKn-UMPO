@@ -51,6 +51,7 @@ body {
         }
         .task-card:hover {
             transform: translateY(-5px);
+            border: 5px solid #3498db;
         }
         .task-card.overdue {
             border-left-color: #e74c3c;
