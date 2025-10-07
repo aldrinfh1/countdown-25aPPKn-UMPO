@@ -20,7 +20,7 @@
         {
             title: "B.Indonesia :<br> Mencari 25 kosakata",
             description: "Mencari kosakata yg berhubungan dengan PPKn dan definisikan. <p style=text-align:;><b> 7 Oktober 2025 </p>",
-            deadline: "Oct 7, 2025 08:59:59"
+            deadline: "Oct 7, 2025 07:49:59"
         },
         {
             title: "Ilmu Negara :<br> Book Chapter / Artikel",
