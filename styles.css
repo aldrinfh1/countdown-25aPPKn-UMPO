@@ -1,37 +1,57 @@
 body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f2f5;
+            font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e3a5f;
             color: #333;
             margin: 0;
-            padding: 20px;
+            padding: 0px;
         }
-        .header {
+
+        .headerori {
+            background-color: #1e3a5f;
+        }
+
+        .realbody {
+            padding: 30px 20px 20px 20px;
+            border-radius: 10px;
+            background-color: #f0f2f5;
+        }
+
+        .ftr {
+            background-color: #1e3a5f;
+        }
+
+        .ftrtext {
+            color: white;
             text-align: center;
-            margin-bottom: 30px;
+            margin: 0px;
+            padding: 5px;
         }
-        h1 {
-            color: #1e3a5f;
+
+        .btn {
+            margin-right: 10px;
+            margin-left: 10px;
+            display: inline-block;
         }
 
         .btn1 {
-            background-color: #3498db;
+            background-color: #1e3a5f;
             border: none;
             color: white;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 15px 32px;
-            text-align: center;
-            border-radius: 10px;
-            text-decoration: none;
-            display: inline-block;
+            font-weight: bold;
+            border-radius: 10px 10px 0px 0px;
+            padding: 25px;
             font-size: 16px;
-            transition: transform 0.2s;
-            cursor: pointer;
-            transition-duration: 0.4s;
+            transition-duration: 0.1s;
         }
 
         .btn1:hover {
-            transform: translateY(-5px);
-            background-color: darkblue;
+            background-color: #f0f2d0;
+            color: #1e3a5f;
+        }
+
+        #daftartugas {
+            background-color: #f0f2f5;
+            color: #1e3a5f;
         }
 
         .task-container {
@@ -48,18 +68,21 @@ body {
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             border-left: 5px solid #3498db;
             transition: transform 0.2s;
+            height: 244px;
+
         }
         .task-card:hover {
-            transform: translateY(-5px);
-            border: 5px solid #3498db;
+            transform: translateY(-10px);
+            border-top: 5px solid #3498db;
+
         }
         .task-card.overdue {
             border-left-color: #e74c3c;
             background-color: #fbecec;
         }
         .task-card.overdue:hover {
-            border-style: solid;
-            border-color: #e74c3c;
+            border-top-style: solid;
+            border-top-color: #e74c3c;
 
         }
         .task-card.soon {
@@ -68,8 +91,8 @@ body {
 
         }
         .task-card.soon:hover {
-            border-style: solid;
-            border-color: #f1c40f;
+            border-top-style: solid;
+            border-top-color: #f1c40f;
         }
         .soon .time-box {
             background-color: #fae078;
@@ -113,6 +136,13 @@ body {
             font-size: 1.8em;
             font-weight: bold;
             color: #1e3a5f;
+        }
+
+        #detik {
+            border-radius: 0 10px 10px 0px;
+        }
+        #hari {
+            border-radius: 10px 0 0 10px;
         }
     
         .time-box .label {
